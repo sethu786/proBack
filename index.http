@@ -1,0 +1,11 @@
+### POST /business-data
+POST http://localhost:3000/business-data
+Content-Type: application/json
+
+{
+  "name": "Cake & Co",
+  "location": "Vijaywada"
+}
+
+### GET /regenerate-headline
+GET http://localhost:3000/regenerate-headline?name=Cake%20%26%20Co&location=vijayawada
